@@ -1,3 +1,4 @@
-def merge_tags(tags1, tags2):
-    merged = tags1 | tags2
-    return merged
+def count_unique_coordinates(coordinates):
+    unique = set (coordinates)
+
+    return len(unique)
