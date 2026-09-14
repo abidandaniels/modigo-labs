@@ -1,3 +1,4 @@
-def path_hits_blocked(blocked, path):
-    # TODO: check whether any position in `path` also appears in `blocked`
-    return any (position in blocked for position in path)
+def apply_discount(price, discount_percent=10):
+    if not price :
+        discount_percent = 10
+    return round(price - (price * discount_percent / 100), 2)
